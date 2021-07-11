@@ -1,0 +1,8 @@
+# 项目排除路径
+/project/project/target/
+/project/target/
+/target/global-logging/
+/target/scala-2.13/classes/
+/target/scala-2.13/test-classes/
+/target/streams/
+/target/web/
