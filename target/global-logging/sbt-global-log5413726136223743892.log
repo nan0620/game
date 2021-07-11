@@ -1,0 +1,104 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\NANJIA~1\AppData\Local\Temp\idea1.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\NANJIA~1\AppData\Local\Temp\idea1.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.9 (Oracle Corporation Java 14)
+[debug]       Load.loadUnit: plugins took 132.1555ms
+[debug]       Load.loadUnit: defsScala took 0.2914ms
+[debug] [Loading] Scanning directory C:\Users\Nan Jiang\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Nan Jiang\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 24.6425 ms
+[debug]           Load.resolveProject(global-plugins) took 47.6983ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Nan Jiang\.sbt\1.0\plugins, plugins: List(<none>))) took 94.9579ms
+[debug] [Loading] Done in C:\Users\Nan Jiang\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 124.6081ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2366ms
+[debug]     Load.loadUnit(file:/C:/Users/Nan%20Jiang/.sbt/1.0/plugins/, ...) took 267.1582ms
+[debug]   Load.apply: load took 452.2034ms
+[debug]   Load.apply: resolveProjects took 11.9511ms
+[debug]   Load.apply: finalTransforms took 76.1178ms
+[debug]   Load.apply: config.delegates took 12.46ms
+[debug]   Load.apply: Def.make(settings)... took 1565.8827ms
+[debug]   Load.apply: structureIndex took 252.0208ms
+[debug]   Load.apply: mkStreams took 3.6336ms
+[info] loading global plugins from C:\Users\Nan Jiang\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 10099.741ms
+[debug]           Load.loadUnit: plugins took 64.6482ms
+[debug]           Load.loadUnit: defsScala took 0.0055ms
+[debug] [Loading] Scanning directory C:\Users\Nan Jiang\Documents\ITProject\ITSD-DT2021-Template\project
+[debug]             Load.loadUnit: mkEval took 5.6357ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Nan Jiang\Documents\ITProject\ITSD-DT2021-Template\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.1179 ms
+[info] loading settings for project itsd-dt2021-template-build from plugins.sbt,idea1.sbt ...
+[debug]               Load.resolveProject(itsd-dt2021-template-build) took 5.698ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id itsd-dt2021-template-build, base: C:\Users\Nan Jiang\Documents\ITProject\ITSD-DT2021-Template\project, plugins: List(<none>))) took 8.5717ms
+[debug] [Loading] Done in C:\Users\Nan Jiang\Documents\ITProject\ITSD-DT2021-Template\project, returning: (itsd-dt2021-template-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 5194.2747ms
+[debug]           Load.loadUnit: cleanEvalClasses took 105.3044ms
+[debug]         Load.loadUnit(file:/C:/Users/Nan%20Jiang/Documents/ITProject/ITSD-DT2021-Template/project/, ...) took 5365.9747ms
+[debug]       Load.apply: load took 5370.8923ms
+[debug]       Load.apply: resolveProjects took 0.1338ms
+[debug]       Load.apply: finalTransforms took 18.3464ms
+[debug]       Load.apply: config.delegates took 0.9859ms
+[debug]       Load.apply: Def.make(settings)... took 173.5512ms
+[debug]       Load.apply: structureIndex took 45.35ms
+[debug]       Load.apply: mkStreams took 0.004ms
+[info] loading project definition from C:\Users\Nan Jiang\Documents\ITProject\ITSD-DT2021-Template\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+[debug]     Load.loadUnit: plugins took 8466.8408ms
+[debug]     Load.loadUnit: defsScala took 0.0027ms
+[debug] [Loading] Scanning directory C:\Users\Nan Jiang\Documents\ITProject\ITSD-DT2021-Template
+[debug]       Load.loadUnit: mkEval took 0.5558ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(play.sbt.PlayJava), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.routes.RoutesCompiler))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging))), Clause(Atom(play.sbt.Play),Set(Atom(play.twirl.sbt.SbtTwirl))), Clause(Atom(play.sbt.PlayAkkaHttp2Support),Set(Atom(play.sbt.PlayAkkaHttpServer))), Clause(Atom(play.sbt.PlayAkkaHttp2Support),Set(Atom(com.lightbend.sbt.javaagent.JavaAgent))), Clause(Atom(play.sbt.PlayAkkaHttpServer),Set(Atom(play.sbt.PlayService))), Clause(Atom(play.sbt.PlayFilters),Set(Atom(play.sbt.PlayWeb))), Clause(Atom(play.sbt.PlayJava),Set(Atom(play.sbt.PlayWeb))), Clause(Atom(play.sbt.PlayLayoutPlugin),Set(Atom(play.sbt.PlayWeb))), Clause(Atom(play.sbt.PlayLogback),Set(Atom(play.sbt.PlayService))), Clause(Atom(play.sbt.PlayMinimalJava),Set(Atom(play.sbt.PlayWeb))), Clause(Atom(play.sbt.PlayNettyServer),Set(Atom(play.sbt.PlayService))), Clause(Atom(play.sbt.PlayScala),Set(Atom(play.sbt.PlayWeb))), Clause(Atom(play.sbt.PlayService),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging))), Clause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.routes.RoutesCompiler))), Clause(Atom(play.sbt.PlayWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.PlayService))), Clause(Atom(play.sbt.PlayWeb),Set(Atom(play.twirl.sbt.SbtTwirl))), Clause(Atom(play.sbt.routes.RoutesCompiler),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.test.MediatorWorkaroundPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.less.SbtLess),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbteclipse.plugin.EclipsePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.SbtNativePackager),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jlink.JlinkPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemVPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemdPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.UpstartPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianDeployPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.JDebPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.docker.DockerPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.docker.DockerSpotifyClientPlugin),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin))), Clause(Atom(com.typesafe.sbt.packager.graalvmnativeimage.GraalVMNativeImagePlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin),Set(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin))), Clause(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmDeployPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalDeployPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin),Set(Atom(com.typesafe.sbt.SbtNativePackager))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsDeployPlugin),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.lightbend.sbt.javaagent.JavaAgent),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.lightbend.sbt.javaagent.JavaAgentPackaging),Set(Atom(com.lightbend.sbt.javaagent.JavaAgent))), Clause(Atom(com.lightbend.sbt.javaagent.JavaAgentPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(play.sbt.PlayService),Set(Atom(play.sbt.PlayAkkaHttpServer))), Clause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.PlayFilters))), Clause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.PlayLayoutPlugin))), Clause(Atom(play.sbt.PlayService),Set(Atom(play.sbt.PlayLogback))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.less.SbtLess))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.sbteclipse.plugin.EclipsePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin))), Clause(And(Set(Atom(com.lightbend.sbt.javaagent.JavaAgent), Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))),Set(Atom(com.lightbend.sbt.javaagent.JavaAgentPackaging))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,play.sbt.PlayJava,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,play.sbt.PlayWeb,play.twirl.sbt.SbtTwirl,sbt.plugins.JvmPlugin,play.sbt.PlayService,play.sbt.PlayFilters,play.sbt.PlayLayoutPlugin,play.sbt.routes.RoutesCompiler,com.typesafe.sbt.jse.SbtJsTask,com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging,com.typesafe.sbteclipse.plugin.EclipsePlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,play.sbt.PlayLogback,com.typesafe.sbt.less.SbtLess,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin,com.typesafe.sbt.jse.SbtJsEngine,play.sbt.PlayAkkaHttpServer,com.typesafe.sbt.coffeescript.SbtCoffeeScript,com.typesafe.sbt.web.SbtWeb,com.typesafe.sbt.packager.archetypes.JavaAppPackaging,com.typesafe.sbt.packager.rpm.RpmPlugin,com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin,com.typesafe.sbt.packager.windows.WindowsPlugin,com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin,com.typesafe.sbt.packager.docker.DockerPlugin,com.typesafe.sbt.packager.debian.DebianPlugin,com.typesafe.sbt.packager.universal.UniversalPlugin,com.typesafe.sbt.packager.linux.LinuxPlugin,com.typesafe.sbt.SbtNativePackager)
+[debug] Plugins.deducer#function took 53.0124 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 234.0095ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\Nan Jiang\Documents\ITProject\ITSD-DT2021-Template, plugins: List(play.sbt.PlayJava))) took 322.7708ms
+[debug] [Loading] Done in C:\Users\Nan Jiang\Documents\ITProject\ITSD-DT2021-Template, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2259.1389ms
+[debug]     Load.loadUnit: cleanEvalClasses took 21.7347ms
+[debug]   Load.loadUnit(file:/C:/Users/Nan%20Jiang/Documents/ITProject/ITSD-DT2021-Template/, ...) took 10749.4692ms
+[debug] Load.apply: load took 10753.0896ms
+[debug] Load.apply: resolveProjects took 0.2398ms
+[debug] Load.apply: finalTransforms took 64.914ms
+[debug] Load.apply: config.delegates took 0.9367ms
+[debug] Load.apply: Def.make(settings)... took 225.7761ms
+[debug] Load.apply: structureIndex took 44.5049ms
+[debug] Load.apply: mkStreams took 0.0033ms
+[info] set current project to ITSD Card Game (in build file:/C:/Users/Nan%20Jiang/Documents/ITProject/ITSD-DT2021-Template/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 53534 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 53534, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to ITSD Card Game (in build file:/C:/Users/Nan%20Jiang/Documents/ITProject/ITSD-DT2021-Template/)
+[debug] > Exec(idea-shell, None, None)

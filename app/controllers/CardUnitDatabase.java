@@ -1,3 +1,5 @@
+//author: 2499878
+//function: this class is for storing all kinds of unit cards and spell cards
 package controllers;
 
 import java.util.ArrayList;
@@ -7,10 +9,7 @@ import structures.basic.CardAttribute;
 import structures.basic.Unit;
 import structures.basic.UnitAttribute;
 
-/*
- * this class is used to stored all kind of card and unit
- * 
- */
+
 public class CardUnitDatabase {
 	private ArrayList<CardUnitController> database=new ArrayList<CardUnitController>();
 	
@@ -22,13 +21,7 @@ public class CardUnitDatabase {
 		
 	}
 
-/*	public Card getCardByUnitID(int id) {
-		for(CardUnitController t: database) {
-			if(t.getCardID()==id)return t.buildCard();
-		}
-		return null;
-	}*/
-	
+	// get the card by its id
 	public Unit getUnitByCardID(int id) {
 		for(CardUnitController t: database) {
 			if(t.getCardID()==id)return t.buildUnit();
@@ -36,20 +29,23 @@ public class CardUnitDatabase {
 		return null;
 	}
 
+	// get the card by its configure
 	public Card getCardByCardConf(String conf) {
 		for(CardUnitController t: database) {
 			if(t.getCardConf().equals(conf))return t.buildCard();
 		}
 		return null;
 	}
-	
+
+	// get the card's attribute by its id
 	public CardAttribute getAtrributeByCardID(int id) {
 		for(CardUnitController t: database) {
 			if(t.getCardID()==id)return t.getAttribute();
 		}
 		return null;
 	}
-	
+
+	// get the card's special ability, like Provoke, Flying, AirDrop, SpellThief
 	public boolean cardContainProperty(int id, Unit.Property p) {
 		for(CardUnitController t: database) {
 			if(t.getCardID()==id) {
