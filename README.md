@@ -1,3 +1,2 @@
-# ITSD Card Game Template
-
-TODO card game template
+# ITSD Card Game
+JDK requires version 14.
