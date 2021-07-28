@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/Nan Jiang/Documents/ITProject/ITSD-DT2021-Template/conf/routes
-// @DATE:Wed Jul 07 02:35:57 BST 2021
+// @SOURCE:/Users/nan/Downloads/IT-Project/team-project/ITSD-DT2021-Template/conf/routes
+// @DATE:Wed Jul 28 23:15:52 BST 2021
 
 
 package router {
